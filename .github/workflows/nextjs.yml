@@ -30,6 +30,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_PATH: "/${{ vars.BASE_PATH }}"
+      ASSET_PREFIX: "/${{ vars.ASSET_PREFIX }}"
+      RUNTIME_CONFIG: "/${{ vars.RUNTIME_CONFIG }}"
     steps:
       - name: Checkout
         uses: actions/checkout@v3
