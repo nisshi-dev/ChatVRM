@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: process.env.BASE_PATH || "",
+  assetPrefix: "/",
   basePath: process.env.BASE_PATH || "",
   trailingSlash: true,
   publicRuntimeConfig: {
