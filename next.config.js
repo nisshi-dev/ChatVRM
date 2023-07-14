@@ -7,6 +7,7 @@ const nextConfig = {
   publicRuntimeConfig: {
     root: process.env.RUNTIME_CONFIG || "",
   },
+  optimizeFonts: false,
 };
 
 module.exports = nextConfig;
